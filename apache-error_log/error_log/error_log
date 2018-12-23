@@ -1,0 +1,215 @@
+[Sun Mar  7 16:02:00 2004] [notice] Apache/1.3.29 (Unix) configured -- resuming normal operations
+
+[Sun Mar  7 16:02:00 2004] [info] Server built: Feb 27 2004 13:56:37
+
+[Sun Mar  7 16:02:00 2004] [notice] Accept mutex: sysvsem (Default: sysvsem)
+
+[Sun Mar  7 16:05:49 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 16:45:56 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 17:13:50 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 17:21:44 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 17:23:53 2004] statistics: Use of uninitialized value in concatenation (.) or string at /home/httpd/twiki/lib/TWiki.pm line 528.
+
+[Sun Mar  7 17:23:53 2004] statistics: Can't create file /home/httpd/twiki/data/Main/WebStatistics.txt - Permission denied
+
+[Sun Mar  7 17:27:37 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 17:31:39 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 17:58:00 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 18:00:09 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 18:10:09 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 18:19:01 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 18:42:29 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 18:52:30 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 18:58:52 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 19:03:58 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 19:08:55 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 19:22:11 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 19:31:25 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 19:39:40 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 19:41:33 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 19:42:45 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 20:02:13 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 20:04:35 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 20:11:33 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 20:12:55 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 20:25:31 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 20:44:48 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 20:58:27 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 21:16:17 2004] [error] [client 24.70.56.49] File does not exist: /home/httpd/twiki/view/Main/WebHome
+
+[Sun Mar  7 21:20:14 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 21:31:12 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 21:39:55 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 21:44:10 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 22:06:16 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 22:08:43 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 22:09:44 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 22:12:28 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 22:27:18 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 22:45:46 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 23:30:23 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Sun Mar  7 23:42:44 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 00:11:22 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 00:32:45 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 00:40:10 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 01:04:05 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 01:19:18 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 01:35:13 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 01:47:06 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 01:59:13 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 02:12:24 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 02:54:54 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 03:46:27 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 03:48:18 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 03:52:17 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 03:55:09 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 04:22:55 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 04:24:47 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 04:40:32 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 04:55:40 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 04:59:13 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 05:22:57 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 05:24:29 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 05:31:47 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 06:23:52 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 06:43:32 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 06:49:27 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 07:07:13 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 07:23:38 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 07:27:36 2004] [error] [client 61.9.4.61] File does not exist: /usr/local/apache/htdocs/_vti_bin/owssvr.dll
+
+[Mon Mar  8 07:27:37 2004] [error] [client 61.9.4.61] File does not exist: /usr/local/apache/htdocs/MSOffice/cltreq.asp
+
+[Mon Mar  8 07:35:50 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 07:40:54 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 07:49:56 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 07:54:30 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 08:14:15 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 08:15:21 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 08:37:23 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 09:05:54 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 09:36:35 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 09:41:15 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 10:08:02 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 10:48:19 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 11:09:24 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 11:11:51 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 11:19:43 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 11:45:08 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 11:49:23 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 11:51:20 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 12:28:09 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 13:04:14 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 13:08:17 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 13:16:11 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 13:35:02 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 13:36:06 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 13:45:46 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 13:55:51 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 13:56:52 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 14:07:26 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 14:27:46 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Mon Mar  8 14:54:56 2004] [info] [client 64.242.88.10] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Tue Mar  9 13:49:05 2004] [info] [client 81.226.63.194] read request line timed out
+
+[Wed Mar 10 11:45:51 2004] [info] [client 24.71.236.129] (104)Connection reset by peer: client stopped connection before send body completed
+
+[Thu Mar 11 02:27:34 2004] [error] [client 200.174.151.3] File does not exist: /usr/local/mailman/archives/public/cipg/2003-november.txt
+
+[Thu Mar 11 07:39:29 2004] [error] [client 140.113.179.131] File does not exist: /usr/local/apache/htdocs/M83A

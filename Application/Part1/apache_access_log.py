@@ -23,5 +23,5 @@ def parse_apache_log_line(logline):
         endpoint      = match.group(6),
         protocol      = match.group(7),
         response_code = int(match.group(8)),
-        content_size  = long(match.group(9))
+        content_size  = int(match.group(9))
     )

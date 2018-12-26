@@ -24,14 +24,14 @@ def response_code_analysis_plot(responseCodeToCount):
     plt.ylabel('Response Code')
     plt.title('Response Code Analysis')
     plt.show()
-    
+
+
+# Analysis on content    
 def content_analysis_plot(content_size):
     counts = [1,2,3]
     LABELS = ["Average Size","Min Size","Max Size"]
     plt.bar(counts,content_size)
     plt.xticks(counts,LABELS)
     plt.show()
-
-def top_end_points():
     
     

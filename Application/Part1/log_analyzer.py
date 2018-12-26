@@ -3,7 +3,7 @@ from pyspark import SparkContext, SparkConf
 import apache_access_log
 import analysis_plots
 import sys
-'''
+
 conf = SparkConf().setAppName("Log Analyzer")
 sc = SparkContext(conf=conf)
 
@@ -47,7 +47,6 @@ topEndpoints = (access_logs
                 .takeOrdered(10, lambda s: -1 * s[1]))
 print ("Top Endpoints: %s" % (topEndpoints))
 
-'''
 
 
 

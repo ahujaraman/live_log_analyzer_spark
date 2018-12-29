@@ -67,12 +67,15 @@ def time_series_plot(input_list):
     y_labels = [val[1] for val in input_list]
     dict_plot = OrderedDict()
     for x,y in zip(x_labels,y_labels):
-        cur_val = x.split(":", 1)[0]
+       # cur_val = x.split(":", 1)[0]
+        cur_val = x.split(" ")[0]
+        #print(cur_val)
         dict_plot[cur_val] = dict_plot.get(cur_val, 0) + y
     input_list = list(dict_plot.items())
     x_labels = [val[0] for val in input_list]
     y_labels = [val[1] for val in input_list]
     plt.plot_date(x=x_labels, y=y_labels, fmt="r-")
+    plt.xticks(rotation=45)
     plt.title("Traffic Analysis")
     plt.ylabel("Content Size - MB")
     plt.grid(True)

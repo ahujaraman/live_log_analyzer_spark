@@ -9,7 +9,7 @@ sc = SparkContext(conf=conf)
 sqlContext = SQLContext(sc)
 
 logFile = 'C:\\Users\\Dell\\Documents\\live_log_analyzer_spark\\apache_log_example.log'
-'''
+
 
 access_logs = (sc.textFile(logFile)
                .map(apache_access_log.parse_apache_log_line)
@@ -19,7 +19,6 @@ schema_access_logs = sqlContext.createDataFrame(access_logs)
 schema_access_logs.registerTempTable("logs")
 
 
-'''
 #Top 10 Endpoints which Transfer Maximum Content
 topEndpointsMaxSize = (sqlContext
                 .sql("SELECT endpoint,content_size/1024 FROM logs ORDER BY content_size DESC LIMIT 10")
@@ -36,7 +35,6 @@ responseCodeToCount = (sqlContext
                        .collect())
 bar_plot_list_of_tuples(responseCodeToCount,'Response Codes','Number of Codes','Response Code Analysis')
 
-'''
 # Most Frequent Visitors (Most Frequent IP Address visits).
 frequentIpAddressesHits = (sqlContext
                .sql("SELECT ip_address, COUNT(*) AS total FROM logs GROUP BY ip_address HAVING total > 10 LIMIT 100")
@@ -49,10 +47,18 @@ topEndpoints = (sqlContext
                 .rdd.map(lambda row: (row[0], row[1]))
                 .collect())
 bar_plot_list_of_tuples_horizontal(topEndpoints,'Number of Times Accessed','End Points','Most Frequent Endpoints')
+'''
 
+
+trafficWithTime = (sqlContext
+                       .sql("SELECT date_time, content_size/1024 FROM logs")
+                       .rdd.map(lambda row: (row[0], row[1]))
+                       .collect())
+print ("Traffic with time: %s" % (trafficWithTime))
+time_series_plot(trafficWithTime)
 '''
 trafficWithTime = (sqlContext
-                       .sql("SELECT date_time, content_size/1024 FROM logs LIMIT 100")
+                       .sql("SELECT date_time, content_size/1024 FROM logs")
                        .rdd.map(lambda row: (row[0], row[1]))
                        .collect())
 print ("Traffic with time: %s" % (trafficWithTime))

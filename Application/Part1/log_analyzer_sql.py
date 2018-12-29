@@ -44,8 +44,11 @@ frequentIpAddressesHits = (sqlContext
                .collect())
 bar_plot_list_of_tuples_horizontal(frequentIpAddressesHits,'Number of Hits','IP Address','Most Frequent Visitors (Frequent IP Address Hits)')
 
-
-
+topEndpoints = (sqlContext
+                .sql("SELECT endpoint, COUNT(*) AS total FROM logs GROUP BY endpoint ORDER BY total DESC LIMIT 10")
+                .rdd.map(lambda row: (row[0], row[1]))
+                .collect())
+bar_plot_list_of_tuples_horizontal(topEndpoints,'Number of Times Accessed','End Points','Most Frequent Endpoints')
 
 '''
 trafficWithTime = (sqlContext

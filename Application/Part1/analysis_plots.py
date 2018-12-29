@@ -13,6 +13,18 @@ import numpy as np
 from collections import OrderedDict
 
 
+
+
+def autolabel(rects):
+    """
+    Attach a text label above each bar displaying its height
+    """
+    for rect in rects:
+        height = rect.get_height()
+        ax.text(rect.get_x() + rect.get_width()/2., 1.05*height,
+                '%d' % int(height),
+                ha='center', va='bottom')
+
 # Analysis on content    
 def content_analysis_plot(content_size):
     counts = [1,2,3]
@@ -32,7 +44,9 @@ def bar_plot_list_of_tuples_horizontal(input_list,x_label,y_label,plot_title):
     plt.title(plot_title)
     ax = pd.Series(x_labels).plot(kind='barh')
     ax.set_yticklabels(y_labels)
-    
+    for i, v in enumerate(x_labels):
+        ax.text(int(v) + 0.5, i - 0.25, str(v),ha='center', va='bottom')
+        
 # Generic List of Tuples Bar Plot 
 def bar_plot_list_of_tuples(input_list,x_label,y_label,plot_title):
     x_labels = [val[0] for val in input_list]

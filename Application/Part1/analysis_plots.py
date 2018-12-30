@@ -62,7 +62,7 @@ def bar_plot_list_of_tuples(input_list,x_label,y_label,plot_title):
         height = rect.get_height()
         ax.text(rect.get_x() + rect.get_width()/2, height + 5, label, ha='center', va='bottom')
 
-def time_series_plot(input_list):
+def time_series_plot(input_list,x_label,y_lablel,plot_title):
     x_labels = [val[0] for val in input_list]
     y_labels = [val[1] for val in input_list]
     dict_plot = OrderedDict()
@@ -76,7 +76,8 @@ def time_series_plot(input_list):
     y_labels = [val[1] for val in input_list]
     plt.plot_date(x=x_labels, y=y_labels, fmt="r-")
     plt.xticks(rotation=45)
-    plt.title("Traffic Analysis")
-    plt.ylabel("Content Size - MB")
+    plt.title(plot_title)
+    plt.xlabel(x_label)
+    plt.ylabel(y_lablel)
     plt.grid(True)
     plt.show()

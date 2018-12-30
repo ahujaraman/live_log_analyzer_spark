@@ -8,6 +8,7 @@ The Application has features to extract information from unstrucutred text logs,
   <img src="https://github.com/ahujaraman/live_log_analyzer_spark/blob/master/Application/Part1/Results/frequent_enpoint_analysis.png" alt="Frequent End Point"
        width="654" height="450">
 </p>
+
 # Response Code Analysis
 <p align="center">
   <img src="https://github.com/ahujaraman/live_log_analyzer_spark/blob/master/Application/Part1/Results/response_code_analysis.png" alt="Response Code Analysis"

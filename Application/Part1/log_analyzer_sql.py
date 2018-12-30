@@ -4,7 +4,7 @@ import apache_access_log
 import analysis_plots
 import sys
 
-'''
+
 conf = SparkConf().setAppName("Log Analyzer SQL")
 sc = SparkContext(conf=conf)
 sqlContext = SQLContext(sc)
@@ -48,14 +48,13 @@ topEndpoints = (sqlContext
                 .rdd.map(lambda row: (row[0], row[1]))
                 .collect())
 bar_plot_list_of_tuples_horizontal(topEndpoints,'Number of Times Accessed','End Points','Most Frequent Endpoints')
-'''
+
 
 Day = '07/Mar/2004'
 trafficperDay = (sqlContext
                        .sql("SELECT time,content_size/1024 FROM logs where date='08/Mar/2004'")
                        .rdd.map(lambda row: (row[0], row[1]))
                        .collect())
-print ("Date and T with time: %s" % (trafficperDay))
 time_series_plot(trafficperDay,Day,'Content Size - MB','Traffic Analysis/Day')
 
 

@@ -1,6 +1,6 @@
 # live_log_analyzer_spark
 Spark Application for analysis of Apache Access logs and detect anamolies!
-Link to My Medium Article in Towards Data Science Publication : [Article](https://towardsdatascience.com/build-log-analytics-application-using-apache-spark-b5eeca1e53ba)
+# Link to My Medium Article in Towards Data Science Publication : [Article](https://towardsdatascience.com/build-log-analytics-application-using-apache-spark-b5eeca1e53ba)
 
 The Application has features to extract information from unstrucutred text logs, and analyze the trends the trends based on Response codes, Traffic, Frequent Visitors, Top End Points, Content Flow etc to detect the anamolies.
 
